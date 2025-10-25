@@ -1,4 +1,3 @@
-
 'use client';
 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -22,8 +21,8 @@ export function OutputShell({ output, onClear }: OutputShellProps) {
           <span className="sr-only">Clear Output</span>
         </Button>
       </CardHeader>
-      <CardContent className="p-0 flex-1 relative">
-        <ScrollArea className="absolute inset-0">
+      <CardContent className="p-0 flex-1 overflow-y-auto">
+        <ScrollArea className="h-full">
           <pre
             className={cn(
               "p-4 text-sm font-mono whitespace-pre-wrap",
