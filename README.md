@@ -98,7 +98,7 @@ You can interact directly from the editor’s sidebar — making it your **AI co
 
 ## 📸 Preview
 
-![Harsha Editor Preview](https://harsha-editor.netlify.app/preview.png)
+![Harsha Editor Preview](https://github.com/Harsha-032/Harsha_Code_Editor/blob/main/screenshot.png?raw=true)
 
 ---
 
